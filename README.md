@@ -9,7 +9,7 @@ Version 0.0.1, Copyright (c) 2016, [Yassel Avila Gil](http://yasselavila.com)
 
 ### What is this?
 
-Tool to merge objects recursively.
+A tool to merge objects recursively.
 
 ### License
 
