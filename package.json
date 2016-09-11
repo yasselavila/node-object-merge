@@ -20,7 +20,8 @@
   },
   "devDependencies": {
     "typescript": "^2.0.2",
-    "@types/lodash": "^4.14.34"
+    "@types/lodash": "^4.14.34",
+    "yag-node-tools": "^0.0.1"
   },
   "scripts": {
     "start": "npm run build:w",
