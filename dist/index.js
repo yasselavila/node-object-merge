@@ -3,7 +3,7 @@
  *
  * @copyright Copyright (c) 2016, Yassel Avila Gil (http://yasselavila.com)
  * @license   BSD 3 Clause (see LICENSE.txt)
- * @link      https://github.com/yasselavila/node-object-merge
+ * @link      https://github.com/yasselavila/object-merge
  */
 "use strict";
 var isPlainObject = require('is-plain-object');

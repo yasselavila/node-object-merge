@@ -1,7 +1,7 @@
 yag-object-merge
 =====
 
-Version 0.1.1, Copyright (c) 2016, [Yassel Avila Gil](http://yasselavila.com)
+Version 0.1.2, Copyright (c) 2016, [Yassel Avila Gil](http://yasselavila.com)
 
 ## Warning!
 
