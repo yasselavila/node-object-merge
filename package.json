@@ -1,6 +1,6 @@
 {
   "name": "yag-object-merge",
-  "description": "A tool to merge objects recursively",
+  "description": "Tool to merge objects recursively",
   "version": "0.0.1",
   "license": "BSD-3-Clause",
   "private": true,
