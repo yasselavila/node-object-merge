@@ -6,9 +6,8 @@
  * @link      https://github.com/yasselavila/node-object-merge
  */
 "use strict";
-var lodash = require('lodash');
-var isPlainObject = lodash.isPlainObject;
-var isArray = lodash.isArray;
+var isPlainObject = require('is-plain-object');
+var isArray = require('is-array');
 function merge() {
     var objs = [];
     for (var _i = 0; _i < arguments.length; _i++) {

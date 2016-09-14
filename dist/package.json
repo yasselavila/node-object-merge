@@ -1,7 +1,7 @@
 {
   "name": "yag-object-merge",
-  "description": "Tool to merge object recursively",
-  "version": "0.0.1",
+  "description": "Tool to merge objects recursively",
+  "version": "0.1.0",
   "license": "BSD-3-Clause",
   "author": {
     "name": "Yassel Avila Gil",
@@ -12,9 +12,14 @@
     "type": "git",
     "url": "https://github.com/yasselavila/node-object-merge.git"
   },
+  "keyworks": [
+    "yag",
+    "object",
+    "recursive",
+    "merge"
+  ],
   "dependencies": {
-    "lodash": "^4.15.0",
-    "lodash.isarray": "^4.0.0",
-    "lodash.isplainobject": "^4.0.6"
+    "is-plain-object": "^2.0.1",
+    "is-array": "^1.0.1"
   }
 }

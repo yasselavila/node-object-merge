@@ -1,7 +1,7 @@
 yag-object-merge
 =====
 
-Version 0.0.1, Copyright (c) 2016, [Yassel Avila Gil](http://yasselavila.com)
+Version 0.1.0, Copyright (c) 2016, [Yassel Avila Gil](http://yasselavila.com)
 
 ## Warning!
 
@@ -9,7 +9,7 @@ Version 0.0.1, Copyright (c) 2016, [Yassel Avila Gil](http://yasselavila.com)
 
 ### What is this?
 
-Tool to merge object recursively.
+Tool to merge objects recursively.
 
 ### License
 
