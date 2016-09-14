@@ -12,7 +12,7 @@
   "typings": "index.d.ts",
   "repository": {
     "type": "git",
-    "url": "https://github.com/yasselavila/node-object-merge.git"
+    "url": "https://github.com/yasselavila/object-merge.git"
   },
   "keyworks": [
     "yag",
