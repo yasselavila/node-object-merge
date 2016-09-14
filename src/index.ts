@@ -6,10 +6,8 @@
  * @link      https://github.com/yasselavila/node-object-merge
  */
 
-import * as lodash from 'lodash';
-
-const isPlainObject: Function = lodash.isPlainObject;
-const isArray: Function = lodash.isArray;
+import isPlainObject = require('is-plain-object');
+import isArray = require('is-array');
 
 export type ObjectOf<T> = {[key: string]: T};
 

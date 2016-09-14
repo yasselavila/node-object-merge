@@ -19,7 +19,10 @@
     "removeComments": false,
     "declaration": true,
     "sourceMap": false,
-    "rootDir": "src"
+    "rootDir": "src",
+    "types": [
+      "node"
+    ]
   },
   "filesGlob": [
     "**/*.ts",
