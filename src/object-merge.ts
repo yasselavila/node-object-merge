@@ -9,7 +9,7 @@
 import isPlainObject = require('is-plain-object');
 import isArray = require('is-array');
 
-export default function merge<T extends any>(...objs: Array<T>): T {
+export function merge<T extends any>(...objs: Array<T>): T {
   let ret: any = {};
 
   for (let i: number = 0, l: number = objs.length; i < l; i++) {
