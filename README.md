@@ -3,10 +3,6 @@ yag-object-merge
 
 Version 0.1.2, Copyright (c) 2016-2017, [Yassel Avila Gil](http://yasselavila.com)
 
-## Warning!
-
-**THIS TOOL IS UNDER HEAVY DEVELOPMENT.**
-
 ### What is this?
 
 Tool to merge objects recursively.
