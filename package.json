@@ -17,7 +17,8 @@
     "yag",
     "object",
     "recursive",
-    "merge"
+    "merge",
+    "object-merge"
   ],
   "main": "object-merge.js",
   "typings": "object-merge.d.ts",
