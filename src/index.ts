@@ -9,13 +9,11 @@
 import isPlainObject = require('is-plain-object');
 import isArray = require('is-array');
 
-export type ObjectOf<T> = {[key: string]: T};
-
-export default function merge(...objs: Array<ObjectOf<any>>): ObjectOf<any> {
-  let ret: ObjectOf<any> = {};
+export default function merge<T extends any>(...objs: Array<T>): T {
+  let ret: any = {};
 
   for (let i: number = 0, l: number = objs.length; i < l; i++) {
-    let currentObj: ObjectOf<any> = objs[i];
+    let currentObj: any = objs[i];
 
     if (isPlainObject(currentObj)) {
       let keys: string[] = Object.keys(currentObj);
