@@ -19,8 +19,8 @@
     "recursive",
     "merge"
   ],
-  "main": "index.js",
-  "typings": "index.d.ts",
+  "main": "object-merge.js",
+  "typings": "object-merge.d.ts",
   "scripts": {
     "start": "npm run build:w",
     "clean": "rm -rf ./dist && mkdir dist",
