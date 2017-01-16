@@ -13,11 +13,11 @@ Tool to merge objects recursively.
 
 ## Documentation
 
-### API
+### Usage
 
 JavaScript:
 ```js
-var merge = require('yag-object-merge').default;
+var merge = require('yag-object-merge').merge;
 
 var one = {
   foo: 50,
@@ -58,10 +58,22 @@ TypeScript:
 ```ts
 import merge from 'yag-object-merge';
 
-let one = {...};
-let two = {...};
+interface Config {
+  optionOne: string;
+  optionTwo?: number;
+}
 
-let result = merge<any>(one, two);
+let defaultConfig: Config = {
+  optionOne: 'Default config',
+  optionTwo: 1000
+};
 
-//console.log(result);
+let userConfig: Config = {
+  optionOne: 'User config'
+};
+
+let finalConfig: Config = merge<Config>(defaultConfig, userConfig);
+
+console.log(finalConfig);
+// { optionOne: 'User config', optionTwo: 1000 }
 ```
