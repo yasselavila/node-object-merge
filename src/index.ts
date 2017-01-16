@@ -6,7 +6,7 @@
  * @link      https://github.com/yasselavila/object-merge
  */
 
-import { merge } from './object-merge';
+import { merge } from './merge';
 
 export { merge };
 
