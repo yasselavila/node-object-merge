@@ -1,7 +1,7 @@
 yag-object-merge
 =====
 
-Version 0.1.2, Copyright (c) 2016, [Yassel Avila Gil](http://yasselavila.com)
+Version 0.1.2, Copyright (c) 2016-2017, [Yassel Avila Gil](http://yasselavila.com)
 
 ## Warning!
 
@@ -42,6 +42,7 @@ var two = {
 };
 
 var result = merge(one, two);
+
 console.log(result);
 /*
  * Result:
@@ -59,7 +60,12 @@ console.log(result);
 
 TypeScript:
 ```ts
-import {default as merge} from 'yag-object-merge';
+import merge from 'yag-object-merge';
 
-// ...
+let one = {...};
+let two = {...};
+
+let result = merge<any>(one, two);
+
+//console.log(result);
 ```
